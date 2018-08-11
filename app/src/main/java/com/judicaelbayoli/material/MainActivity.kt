@@ -16,4 +16,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, GoogleLoginActivity::class.java)
         startActivity(intent)
     }
+
+    fun facebookLogin(view: View){
+        val intent = Intent(this, FacebookLoginActivity::class.java)
+        startActivity(intent)
+    }
 }
